@@ -1,0 +1,66 @@
+    delay(5);
+    noTone(5);
+    delay(5);
+    digitalWrite(10, HIGH);
+    for(int i=8; i<14; i++)
+    {
+      if(i!=10)
+      {
+      digitalWrite(i, LOW);
+      }
+    }
+   }
+  
+  
+  else if(cm<150 && cm>100)
+  {
+    tone(5, 3000);
+    delay(5);
+    noTone(5);
+    delay(5);
+    digitalWrite(11, HIGH);
+    for(int i=8; i<14; i++)
+    {
+      if(i!=11)
+      {
+      	digitalWrite(i, LOW);
+      }
+    }
+   }
+  
+  
+   else if(cm<100 && cm>50)
+  {
+    tone(5, 5000);
+    delay(5);
+    noTone(5);
+    delay(5);
+    digitalWrite(12, HIGH);
+    for(int i=8; i<14; i++)
+    {
+        if(i!=12)
+        {
+      		digitalWrite(i, LOW);
+        }
+    }
+   }
+  
+  
+   else if(cm<50)
+   {
+    tone(5, 5000);
+    delay(5);
+    noTone(5);
+    delay(5);
+    digitalWrite(13, HIGH);
+    for(int i=8; i<14; i++)
+    {
+      if(i!=13)
+      {
+      	digitalWrite(i, LOW);
+      }
+    }
+   }
+  
+
+}
